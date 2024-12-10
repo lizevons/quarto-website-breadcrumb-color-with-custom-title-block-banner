@@ -1,0 +1,11 @@
+---
+title: "Page with title-block-banner custom background"
+title-block-banner: "#4097C2"
+title-block-banner-color: white
+---
+
+This page renders with the breadcrumb background the same as the title-block-banner's background colour, however, the title-block-banner-color is not applied to the breadcrumb, making it hard to read. Is it possible to either:
+
+-   Change the background of the breadcrumb to match the navbar
+
+-   Or change the text colour of the breadcrumb to match the title-block-banner-color

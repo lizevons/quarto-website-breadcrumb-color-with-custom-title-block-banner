@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "navbar-vs-title-block-banner-colour"
+  navbar:
+    background: light
+    search: false
+  sidebar:
+    title: "Contents"
+    style: "docked"
+    search: true
+    contents: 
+      - href: index.qmd
+        text: "Home"
+      - section: "Documents"
+        contents: 
+          - href: page.qmd
+            text: "Page 1"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+
+editor: visual
+
